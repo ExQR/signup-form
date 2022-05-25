@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Norse-bold';
-    src: url(/res/Norse-Bold.otf);
+    src: url(./res/Norse-Bold.otf);
 }
 a:link {
     text-decoration: none;
@@ -20,7 +20,7 @@ body {
 .logo-container {
     display: flex;
     flex-direction: column;
-    background-image: url('/res/background.jpg');
+    background-image: url('./res/background.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     flex: 0.6;
